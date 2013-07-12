@@ -1,0 +1,7 @@
+Robot=initOpen('/dev/ttyACM0','jack');
+
+set_velocities(Robot,v_l1,-v_r1)
+        
+pause(1)
+        
+set_velocities(Robot,0,0);
